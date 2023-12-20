@@ -38,9 +38,9 @@
       <br><font size='3'>{{ post.author }}</font>
     {% endif %}
 
-    {% if post.conf %}
-      <br><font size='3'>{{ post.conf }}{% if post.conf_shortname %}
-        ({{ post.conf_shortname}})
+    {% if post.venue %}
+      <br><font size='3'>{{ post.venue }}{% if post.venue_shortname %}
+        ({{ post.venue_shortname}})
       {% endif %}, {{post.year}}</font>
     {% endif %}
     
