@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "About me"
+title: "张良宇"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-张良宇
-======
 
 About me
 ------
