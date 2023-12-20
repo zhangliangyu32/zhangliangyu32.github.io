@@ -3,7 +3,7 @@ title: "Toward Theoretical Understandings of Robust Markov Decision Processes: S
 collection: publications
 permalink: /publication/RobustMDP2022
 author: Wenhao Yang, <strong>Liangyu Zhang</strong>, and Zhihua Zhang
-venue: 'The Annals of Statistics'
+venue: The Annals of Statistics
 year: 2022
 paperurl: /files/papers/RobustMDP2022.pdf
 additional: true
