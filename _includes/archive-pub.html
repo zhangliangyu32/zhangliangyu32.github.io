@@ -42,10 +42,8 @@
       <br><font size='3'>{{ post.venue }}{% if post.venue_shortname %}
         ({{ post.venue_shortname}})
       {% endif %}
-      {% if post.year %}
-        , {{post.year}}.
-      {% else %}
-        .
+      {% if post.year %} , {{post.year}}.
+      {% else %} .
       {% endif %}
       </font>
     {% endif %}
