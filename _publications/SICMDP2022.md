@@ -1,11 +1,11 @@
 ---
 title: "Semi-Infinitely Constrained Markov Decision Processes"
 collection: publications
-permalink: /publication/NIPS2022
+permalink: /publication/SICMDP2022
 author: <strong>Liangyu Zhang</strong>, Yang Peng, Wenhao Yang and Zhihua Zhang
 venue: 'Conference on Neural Information Processing Systems (NeurIPS)'
 year: 2022
 # codeurl: https://github.com/sun-haoxuan/vSIR
-paperurl: /files/papers/NIPS2022.pdf
+paperurl: /files/papers/SICMDP2022.pdf
 additional: true
 ---
