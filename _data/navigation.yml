@@ -3,7 +3,7 @@ main:
   - title: "CV"
     url: /files/CV.pdf
     
-  - title: "Publications and Selected Preprints"
+  - title: "Papers"
     url: /publications/
 
   # - title: "Talks"
