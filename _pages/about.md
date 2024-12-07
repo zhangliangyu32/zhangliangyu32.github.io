@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an assistant professor at the School of Statistics and Management at Shanghai University of Finance and Economics (SUFE). 
+I am an assistant professor at the School of Statistics and Data Science at Shanghai University of Finance and Economics (SUFE). 
 I obtained my Ph.D. in Statistics at Peking University. 
 I was fortunate to be advised by [Prof. Zhihua Zhang](https://www.math.pku.edu.cn/teachers/zhzhang/). 
 Prior to that, I received my Bachelor's degree in Statistics from Peking University in July, 2019.
