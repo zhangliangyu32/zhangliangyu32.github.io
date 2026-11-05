@@ -1,3 +1,23 @@
+# Liangyu Zhang's homepage
+
+Live site: <https://zhangliangyu32.github.io/>. GitHub Pages builds and publishes the `master` branch automatically after a push.
+
+## Local workflow
+
+Use Ruby 3.3 (`brew install ruby@3.3` on macOS). The helper selects Homebrew Ruby 3.3 when available and keeps dependencies inside the ignored `.bundle/` directory.
+
+```sh
+bin/site setup   # Install dependencies after cloning or changing Gemfile
+bin/site serve   # Preview at http://localhost:4000
+bin/site build   # Check the production build before publishing
+```
+
+Edit `_pages/about.md` for the homepage and `_publications/` for papers. Publication records use numeric `sort_year` for sorting; `venue` and optional `year` control the displayed citation, including journal years such as `2026+`. Follow the existing understated format: no accepted/poster labels; put awards in a plain parenthetical `note`. Preserve conference and journal versions as separate records when they are distinct publications.
+
+Before editing, run `git pull --ff-only`. After checking the local preview and build, commit the intended files and run `git push origin master`; check the repository's **Actions** page for the Pages deployment result.
+
+## Original template documentation
+
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.

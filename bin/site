@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+for ruby_bin in /opt/homebrew/opt/ruby@3.3/bin /usr/local/opt/ruby@3.3/bin; do
+  if [[ -x "$ruby_bin/ruby" ]]; then
+    export PATH="$ruby_bin:$PATH"
+    break
+  fi
+done
+
+export BUNDLE_PATH="$PWD/.bundle/gems"
+export BUNDLE_USER_HOME="$PWD/.bundle/user"
+
+site_action="${1:-serve}"
+if [[ $# -gt 0 ]]; then shift; fi
+
+case "$site_action" in
+  setup) exec bundle install --jobs 4 --retry 2 "$@" ;;
+  build) exec bundle exec jekyll build "$@" ;;
+  serve) exec bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 127.0.0.1 --force_polling "$@" ;;
+  *) printf 'Usage: bin/site [setup|build|serve]\n' >&2; exit 2 ;;
+esac

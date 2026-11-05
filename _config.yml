@@ -132,6 +132,7 @@ exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
@@ -139,10 +140,12 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - bin
   - config
   - gulpfile.js
   - log
   - node_modules
+  - output
   - package.json
   - tmp
   - vendor

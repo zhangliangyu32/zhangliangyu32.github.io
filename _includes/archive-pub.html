@@ -39,7 +39,7 @@
     {% endif %}
 
     {% if post.venue %}
-      <br><font size='3'>{{ post.venue}}{% if post.year %}, {{post.year}}.{% else %}.{% endif %}
+      <br><font size='3'>{{ post.venue }}{% if post.year %}, {{ post.year }}{% endif %}{% if post.note %} ({{ post.note }}){% endif %}.
       </font>
     {% endif %}
     
