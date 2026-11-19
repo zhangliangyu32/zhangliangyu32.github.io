@@ -9,7 +9,7 @@ author_profile: true
 
 My solutions to selected exercises from Chapters 0–8 of Roman Vershynin’s *High-Dimensional Probability*, second edition. Comments and corrections are welcome.
 
-(All solutions are my own; AI was used only for typesetting.)
+(Human-written solutions; AI used only for typesetting.)
 
 [PDF]({{ '/files/notes/hdp-2nd-edition-solutions.pdf' | relative_url }}) · [Book website](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html)
 
