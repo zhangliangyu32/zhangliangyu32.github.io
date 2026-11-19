@@ -5,12 +5,10 @@ permalink: /notes/
 author_profile: true
 ---
 
-## Solutions to Selected Exercises in High-Dimensional Probability (2nd ed.)
+## High-Dimensional Probability (2nd ed.)
 
-My solutions to selected exercises from Chapters 0–8 of Roman Vershynin’s *High-Dimensional Probability*, second edition. Comments and corrections are welcome.
+Solutions to selected exercises from Chapters 0–8. Corrections are welcome.
 
-(Human-written solutions; AI used only for typesetting.)
-
-[PDF]({{ '/files/notes/hdp-2nd-edition-solutions.pdf' | relative_url }}) · [Book website](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html)
+[PDF]({{ '/files/notes/hdp-2nd-edition-solutions.pdf' | relative_url }}) (Human-written solutions; AI used only for typesetting.)
 
 Last updated: November 18, 2026.
